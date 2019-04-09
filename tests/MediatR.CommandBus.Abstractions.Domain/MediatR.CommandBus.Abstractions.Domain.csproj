@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MediatR.CommandBus.Abstractions.Contracts\MediatR.CommandBus.Abstractions.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

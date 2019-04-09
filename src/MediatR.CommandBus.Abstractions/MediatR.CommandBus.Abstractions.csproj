@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Command Bus Abstractions for MediatR</Description>
+    <Copyright>Copyright Brian Korzynski</Copyright>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+    <AssemblyName>MediatR.CommandBus.Abstractions</AssemblyName>
+    <PackageId>MediatR.CommandBus.Abstractions</PackageId>
+    <PackageTags>mediatr;command bus;commands;queries</PackageTags>
+    <!--<PackageIconUrl>https://raw.githubusercontent.com/jbogard/MediatR/master/assets/logo/gradient_128x128.png</PackageIconUrl>-->
+    <PackageProjectUrl>https://github.com/korz/MediatR.CommandBus.Abstractions</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/korz/MediatR.CommandBus.Abstractions/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>git://github.com/korz/MediatR.CommandBus.Abstractions</RepositoryUrl>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>../../../NuGet Package Keys/MediatR.CommandBus.Abstractions.snk.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>

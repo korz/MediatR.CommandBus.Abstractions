@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.2.2" />
+    <PackageReference Include="Serilog" Version="2.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\MediatR.CommandBus.Abstractions\MediatR.CommandBus.Abstractions.csproj" />
+    <ProjectReference Include="..\MediatR.CommandBus.Abstractions.Contracts\MediatR.CommandBus.Abstractions.Contracts.csproj" />
+    <ProjectReference Include="..\MediatR.CommandBus.Abstractions.Domain\MediatR.CommandBus.Abstractions.Domain.csproj" />
+    <ProjectReference Include="..\MediatR.CommandBus.Abstractions.Infrastructure\MediatR.CommandBus.Abstractions.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
