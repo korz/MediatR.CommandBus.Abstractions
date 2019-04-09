@@ -12,8 +12,8 @@
     <PackageLicenseUrl>https://github.com/korz/MediatR.CommandBus.Abstractions/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git://github.com/korz/MediatR.CommandBus.Abstractions</RepositoryUrl>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>../../../NuGet Package Keys/MediatR.CommandBus.Abstractions.snk.pfx</AssemblyOriginatorKeyFile>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>../../../../Korz/NuGet Package Keys/MediatR.CommandBus.Abstractions.snk.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
