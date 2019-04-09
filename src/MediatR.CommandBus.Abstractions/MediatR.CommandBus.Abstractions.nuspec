@@ -6,7 +6,7 @@
     <title>MediatR.CommandBus.Abstractions</title>
     <authors>Brian Korzynski</authors>
     <owners>Brian Korzynski</owners>
-    <licenseUrl>https://github.com/korz/MediatR.CommandBus.Abstractions/blob/master/LICENSE</licenseUrl>
+    <license type="expression">Apache-2.0</license>
     <projectUrl>https://github.com/korz/MediatR.CommandBus.Abstractions</projectUrl>
     <!-- <iconUrl>https://raw.githubusercontent.com/jbogard/MediatR/master/assets/logo/gradient_128x128.png</iconUrl> -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

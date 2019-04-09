@@ -10,6 +10,7 @@
     <!--<PackageIconUrl>https://raw.githubusercontent.com/jbogard/MediatR/master/assets/logo/gradient_128x128.png</PackageIconUrl>-->
     <PackageProjectUrl>https://github.com/korz/MediatR.CommandBus.Abstractions</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/korz/MediatR.CommandBus.Abstractions/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git://github.com/korz/MediatR.CommandBus.Abstractions</RepositoryUrl>
     <SignAssembly>false</SignAssembly>
